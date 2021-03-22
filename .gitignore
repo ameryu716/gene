@@ -1,0 +1,6 @@
+node_modules/
+.sass-cache/
+fadeAlert.js
+gene.css
+gene.css.map
+gene.js

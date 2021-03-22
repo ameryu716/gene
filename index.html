@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="canonical" href="https://willwebgame.com">
+    <!-- icon -->
+    <link rel="icon" href="https://willwebgame.com/favicon.ico">
+    <link rel="apple-touch-icon" sizes="320x320" href="https://willwebgame.com/favicon.png">
+
+    <!-- card meta -->
+    <meta property="og:title" content="異常行動者否定ジェネレータ">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://willwebgame.com/game/gene/index.html">
+    <meta property="og:image" content="https://willwebgame.com/favicon.png">
+    <meta property="og:description" content="「〇〇が好きな人と付き合いたいです～！」というのは、△△が好きな人を探してるのであって、◇したり☆したりする異常行動者を探しているわけではない。">
+    <meta property="og:site_name" content="異常行動者否定ジェネレータ">
+    <meta name="twitter:card" content="summary">
+
+    <link rel="stylesheet" href="./gene.css">
+    <title>〇〇好き異常行動者否定ジェネレータ</title>
+</head>
+<body>
+    <div id="fadealert-container"></div>
+    <header>
+        <img src="https://willwebgame.com/wwglogo-s40.svg" id="headerlogo">
+        <span>Created WillWebGame</span>
+    </header>
+    <main>
+        <h1>〇〇好き異常行動者否定ジェネレータ</h1>
+        <time datetime="2021-3-16">2021/3/16</time>
+        <h2>前略</h2>
+        <div>「〇〇が好きな人と付き合いたいです～！というのは...」</div>
+        <div class="space50"></div>
+        <div>例文：「雨が好きな人と付き合いたいです～！」というのは、静かな雨をうっとり眺めるのが好きな人を探してるのであって、
+            突然土砂降りの外に飛び出して踊りだしたり、傘が忘れて慌てる通行人を見て興奮したりする異常行動者を探しているわけではない。</div>
+        <div class="space30"></div>
+        <h2>ジェネレータ</h2>
+        <label for="st1"><input type="text" id="st1" placeholder="〇〇（が好きな人...）"></label>
+        <label for="st2"><input type="text" id="st2" placeholder="〇〇や〇〇（が好きな人）"></label>
+        <label for="st3"><input type="text" id="st3" placeholder="〇〇したり"></label>
+        <label for="st4"><input type="text" id="st4" placeholder="〇〇したりする"></label>
+        <div id="enterdiv">
+            <button id="reset" class="crimbtn">リセット</button>
+            <button id="enter" class="bluebtn">このパターンで生成する</button>
+        </div>
+        <div class="space30"></div>
+        <h2>テキスト出力先</h2>
+        <textarea id="output">「（未入力）が好きな人と付き合いたいです～！」というのは、（未入力）が好きな人を探してるのであって、（未入力）（未入力）する異常行動者を探しているわけではない。</textarea>
+        <div id="copyandshare">
+            <button id="copy" class="bluebtn">コピーする</button>
+            <div id="tweetdiv">
+                <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="" data-size="large" data-url="https://willwebgame.com/game/gene/index.html" data-lang="ja" data-show-count="true">Tweet</a>
+            </div>
+        </div>
+        <div class="space50"></div>
+    </main>
+    <footer>
+        <img src="https://willwebgame.com/wwglogo-s40.svg" id="logoimg">
+        <small><a href="https://willwebgame.com">&copy;WillWebGame.com 2020</a></small>
+    </footer>
+    <script src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <script src="./gene.js"></script>
+    <script src="./twcreate.js"></script>
+    <script src="./fadeAlert.js"></script>
+</body>
+</html>

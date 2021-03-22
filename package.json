@@ -1,0 +1,18 @@
+{
+  "name": "gene",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gene.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "buildscss": "sass --style=expanded gene.scss:gene.css",
+    "fastbuildscs": "sass --style=compressed gene.scss:gene.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.32.8",
+    "scss": "^0.2.4",
+    "tsc": "^1.20150623.0"
+  }
+}
